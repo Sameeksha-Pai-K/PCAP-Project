@@ -1,0 +1,2 @@
+nvcc medianFilter.cu main.cpp medianFilter.cpp `pkg-config --libs --cflags opencv4`  -o executable
+
